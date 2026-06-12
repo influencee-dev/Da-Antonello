@@ -197,24 +197,18 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           
           {/* Brand Logo & Name */}
-          <div className="flex items-center gap-3">
-            <img 
-              src="/logoa.png" 
-              alt="Logo Da Antonello" 
-              className="h-11 w-auto object-contain block" 
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }} 
-            />
-            <div className="flex flex-col">
-              <span className="text-2.2xl sm:text-2.5xl font-serif font-black italic tracking-tighter uppercase text-[#1A1A1A] leading-none" id="brand-title">
-                Da Antonello
-              </span>
-              <span className="text-[9px] uppercase tracking-widest text-[#8A817C] font-extrabold hidden xs:inline mt-1" id="brand-subtitle">
-                Foggia • Dal 1994
-              </span>
-            </div>
-          </div>
+        <div className="flex items-center justify-center">
+  <div className="h-24 w-24 overflow-hidden flex items-center justify-center relative">
+    <img 
+      src="/logoa.png" 
+      alt="Logo Da Antonello" 
+      className="h-36 w-auto object-contain max-w-none absolute -top-5" 
+      onError={(e) => {
+        e.currentTarget.style.display = 'none';
+      }} 
+    />
+  </div>
+</div>
 
           {/* Navigation Links */}
           <nav className="hidden md:flex gap-8 text-[11px] uppercase tracking-widest font-extrabold">
