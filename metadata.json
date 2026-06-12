@@ -1,0 +1,6 @@
+{
+  "name": "Da Antonello - Pizzeria Foggia",
+  "description": "Sito Web Premium di Da Antonello. La vera Pizza al Metro e Pizzeria artigianale a Foggia. Ordini a domicilio, asporto e prenotazione tavoli tramite WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
